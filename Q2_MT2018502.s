@@ -22,9 +22,6 @@ loop1	cmp R1,R2
 
 loop2	MOV R7, #0x3; If value of R7 is 3 then third number is greatest
 		b stop
-		
-loop3	MOV R7, #0x3;	If value of R7 is 3 then third number is greatest	
-		b stop
 
 stop    B stop ; stop program
      ENDFUNC
